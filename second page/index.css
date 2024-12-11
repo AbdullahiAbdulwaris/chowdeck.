@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sect{
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #0C513F;
+}  
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 95%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links2{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links2 li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 20px ;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.nav-links2 li a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 20px ;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li :hover{
+    color: #FF884D;
+}
+@media (max-width:700px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-links2 li{
+        display: none;
+    } 
+}
+.start{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.start h1{
+    Font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 112px;
+    Font-weight: 700;
+    Line-height: 120px;
+    color: rgb(255, 255, 255);
+}
+.start-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.start p{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+@media (max-width:700px) {
+    .start h1{
+        font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 60px;
+    Font-weight: 700;
+    Line-height: 75px;
+    color: rgb(255, 255, 255);
+    }
+    .start p{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 18px;
+    line-height: 28px;
+    color:  rgb(255, 255, 255);
+    Font-weight: 400
+    }
+    .carry{
+        display: none;
+    }
+    .sect{
+        height: 30rem;
+    }
+    .start-2{
+        margin-bottom: 10.5rem;
+    }
+    .last{
+        width: 480px; 
+        margin-bottom: 2rem;   
+    }
+    .hope{
+        margin-left: 0px;
+    }
+    .dropdown-center {
+       margin: auto;
+       left: -458px;
+    }
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px 4px;
+}
+
+.dropdown-center {
+    margin-left: 460px;
+}
+.sect-2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-row-gap: 2rem;
+    margin-left: 8rem;
+    grid-column-gap: 0.5rem;
+}
+@media (max-width:700px) {
+    .sect-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .pai{
+        margin-right: 10rem;
+        width: 4rem;
+    }
+    .pack{
+       margin-right: 19rem;
+
+    }
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+.pack h1{
+    margin-left: 19rem;
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 24px;
+    Font-weight: 900;
+    Line-height: 32px;
+    color: rgb(0, 0, 0);
+}
+.get p{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 24px;
+    Font-weight: 500;
+    Line-height: 32px;
+    color: rgb(0, 0, 0);
+    margin-left: 13rem;
+}
+.get li{
+    list-style: none;
+}
+.get li a{
+    text-decoration: none;
+    color: black;
+}
+.sect-7{
+    background-color: black;
+    padding-top: 500px;
+    height: 2400px;
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+.divs{
+    margin: auto;
+width: 72%;
+height: 570PX;
+border-radius: 20px;
+background-color: #ffffff;
+position: absolute;
+top: -100px;
+left: 200px;
+position: absolute;
+border: 4px solid black;
+
+}
+.fars{
+    margin-left: 2.5rem;
+    margin-top:1rem;
+}
+.voln{
+    display: none;
+}
+@media (max-width:700px) {
+    .fars{
+        display: none;
+    }
+    .divs{
+            margin: auto;
+            left:-0px;
+            right: 12px;
+            width: 91%;
+            height: 430px;
+            
+    }
+    .voln{
+        display: inline;
+        border-radius: 20px;
+    }
+    .non{display: none;}
+    .bars{
+        display: inline;
+    }
+}
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.bars{
+    display: none;
+}
+.cork{
+display:flex;
+gap: 1rem;
+margin-top: 7rem;
+}
+.mlo{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(255, 237, 179);
+    margin-top: 1.5rem;
+}
+.stuff{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 45px;
+    Font-weight: 700;
+    Line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+.cook{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lopa{
+    margin-top: 5rem;
+}
+.input{
+    background-color: black;
+    width: 80%;
+    height: 4rem;
+    border: none;
+    text-decoration: none;
+    margin-left:10rem ;
+    outline: none;
+    color: #ffffff;
+}
+.messi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 3rem;
+} 
+.jum li {
+    list-style: none;
+    color: #ffffff;
+}
+.mas li {
+    list-style: none;
+    color: #ffffff;
+}
+.bla li{
+    list-style: none;
+    color: #ffffff;
+}
+.margin-top{
+    margin-bottom: 7rem;
+    color: #ffffff;
+}
+.jum li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.jum li a:hover{
+    text-decoration: underline;
+}
+.bla li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bla li a:hover{
+    text-decoration: overline;
+}
+.mas li a{
+  text-decoration: none;
+  color: #ffffff;  
+}
+.mas li a:hover{
+    text-decoration: underline;
+}
+.bla h6{
+color: #626262;
+}
+.mas h6{
+    color: #626262;
+}
+.jum h6{
+    color: #626262;
+}
+.jum li {
+    list-style: none;
+    color: #ffffff;
+}
+.mas li {
+    list-style: none;
+    color: #ffffff;
+}
+.bla li{
+    list-style: none;
+    color: #ffffff;
+}
+.margin-top{
+    margin-bottom: 7rem;
+    color: #ffffff;
+}
+.twe li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.twe li{
+    list-style: none;
+}
+.ins li a{
+  text-decoration: none;
+  color: #ffffff;  
+}
+.twe li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.twe li{
+    list-style: none;
+}
+.twe li a:hover{
+    text-decoration: underline;
+}
+.ins li a:hover{
+  text-decoration: underline; 
+}
+.ins li{
+    list-style: none;
+}
+.class{
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
+    gap: 20rem;
+}
+.papa{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20rem;
+}
+.spoial{
+    width: 80%;
+    margin-left: 10rem;
+    height: 5px;
+    color: #ffffff;
+}
+@media (max-width:700px) {
+    .class{
+        display: inline;
+    }
+    .messi{
+        display: inline;
+    }
+    .input{
+        width: 40%;
+    }
+    .sect-7{
+        height: 3700px;
+    }
+   .spoial{
+    width: 100%;
+    margin-left: 0px;
+
+   }
+   .mas li{
+    margin-left: 12rem;
+   }
+   .jum li{
+    margin-left: 12rem;
+   }
+   .bla li{
+    margin-left: 12rem;
+   }
+}
+.pai{
+    width: 68rem;
+    color: black;
+    margin-left: 13rem;
+}
+
+
+

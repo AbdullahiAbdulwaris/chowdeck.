@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sect{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #0C513F;
+    position: absolute;
+}  
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 150%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    /* margin-left: 10rem; */
+}
+.nav-links2{
+    flex: 1;
+    text-align: right;
+    /* margin-right: 3rem; */
+    display: flex;
+    margin-left: 2rem;
+}
+.nav-links2 li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 20px ;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.nav-links2 li a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 20px ;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li :hover{
+    color: #FF884D;
+}
+@media (max-width:700px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-links2 li{
+        display: none;
+    } 
+    .last{
+        width: 490px; 
+        margin-bottom: 2rem;   
+    }
+    .mo{
+        display: none;
+    }
+    .non{
+        display: inline;
+    }
+    .divse{
+      width: 45%; 
+      height: 200px;
+      left: -800px; 
+    }
+    .divss{
+        margin: auto;
+        left:-0px;
+        right: 12px;
+        width: 93%;
+        height: 400px;
+    }
+    .emails{
+        display: none;
+    }
+    .email{
+        display: inline;
+    }
+    .bars{
+        display: inline;
+    }
+
+}
+.divse{
+width: 70%;
+height: 300PX;
+border-radius: 20px;
+background-color: #ffffff;
+position: absolute;
+bottom: 100px;
+left: 200px;
+position: absolute;
+border: 4px solid black;
+
+}
+.none{
+    display:none ;
+}
+.ims{
+    border-radius: 50px;
+}
+.divss{
+    margin: auto;
+width: 70%;
+height: 700PX;
+border-radius: 20px;
+background-color: #ffffff;
+border: 4px solid black;
+margin-top: 24rem;
+}
+.emails{
+    border-radius:50px;
+}
+.fars{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+.email{
+    display: none;
+}
+.bars{
+    display: none;
+}
+.sect-7{
+    background-color: black;
+    padding-top: 500px;
+    height: 2400px;
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+.divs{
+    margin: auto;
+width: 70%;
+height: 570PX;
+border-radius: 20px;
+background-color: #ffffff;
+position: absolute;
+top: -100px;
+left: 200px;
+position: absolute;
+border: 4px solid black;
+
+}
+.voln{
+    display: none;
+}
+@media (max-width:700px) {
+    .fars{
+        display: none;
+    }
+    .divs{
+            margin: auto;
+            left:-0px;
+            right: 12px;
+            width: 93%;
+            height: 400px;
+            
+    }
+    .voln{
+        display: inline;
+        border-radius: 20px;
+    }
+    .non{display: none;}
+}
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.cork{
+display:flex;
+gap: 1rem;
+margin-top: 7rem;
+}
+.mlo{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(255, 237, 179);
+    margin-top: 1.5rem;
+}
+.stuff{
+    font-family: "Plus Jakarta Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    Font-size: 45px;
+    Font-weight: 700;
+    Line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+.cook{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lopa{
+    margin-top: 5rem;
+}
+.input{
+    background-color: black;
+    width: 80%;
+    height: 4rem;
+    border: none;
+    text-decoration: none;
+    margin-left:10rem ;
+    outline: none;
+    color: #ffffff;
+}
+.messi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 3rem;
+} 
+.jum li {
+    list-style: none;
+    color: #ffffff;
+}
+.mas li {
+    list-style: none;
+    color: #ffffff;
+}
+.bla li{
+    list-style: none;
+    color: #ffffff;
+}
+.margin-top{
+    margin-bottom: 7rem;
+    color: #ffffff;
+}
+.jum li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.jum li a:hover{
+    text-decoration: underline;
+}
+.bla li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bla li a:hover{
+    text-decoration: overline;
+}
+.mas li a{
+  text-decoration: none;
+  color: #ffffff;  
+}
+.mas li a:hover{
+    text-decoration: underline;
+}
+.bla h6{
+color: #626262;
+}
+.mas h6{
+    color: #626262;
+}
+.jum h6{
+    color: #626262;
+}
+.jum li {
+    list-style: none;
+    color: #ffffff;
+}
+.mas li {
+    list-style: none;
+    color: #ffffff;
+}
+.bla li{
+    list-style: none;
+    color: #ffffff;
+}
+.margin-top{
+    margin-bottom: 7rem;
+    color: #ffffff;
+}
+.twe li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.twe li{
+    list-style: none;
+}
+.ins li a{
+  text-decoration: none;
+  color: #ffffff;  
+}
+.twe li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.twe li{
+    list-style: none;
+}
+.twe li a:hover{
+    text-decoration: underline;
+}
+.ins li a:hover{
+  text-decoration: underline; 
+}
+.ins li{
+    list-style: none;
+}
+.class{
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
+    gap: 20rem;
+}
+.papa{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20rem;
+}
+.spoial{
+    width: 80%;
+    margin-left: 10rem;
+    height: 5px;
+    color: #ffffff;
+}
+@media (max-width:700px) {
+    .class{
+        display: inline;
+    }
+    .messi{
+        display: inline;
+    }
+    .input{
+        width: 40%;
+    }
+    .sect-7{
+        height: 3700px;
+    }
+   .spoial{
+    width: 100%;
+    margin-left: 0px;
+
+   }
+   .mas li{
+    margin-left: 12rem;
+   }
+   .jum li{
+    margin-left: 12rem;
+   }
+   .bla li{
+    margin-left: 12rem;
+   }
+}
+.pai{
+    width: 68rem;
+    color: black;
+    margin-left: 13rem;
+}
+
+
+
